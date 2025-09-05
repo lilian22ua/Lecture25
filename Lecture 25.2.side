@@ -1,0 +1,320 @@
+{
+  "id": "50138f6e-7b2c-450c-8718-2ebf896d1bb7",
+  "version": "2.0",
+  "name": "Lecture 25.2",
+  "url": "https://samguk.com.ua/",
+  "tests": [{
+    "id": "ba5f5ecd-e12b-46e8-93d4-6c48670d1a79",
+    "name": "Search by name",
+    "commands": [{
+      "id": "b07b2f32-9696-470e-b0f7-472f4b7f5413",
+      "comment": "",
+      "command": "open",
+      "target": "https://samguk.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "781d1d69-a62d-4104-9256-66e93b5b22c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=68bad2cad5cdc",
+      "targets": [
+        ["id=68bad2cad5cdc", "id"],
+        ["name=s", "name"],
+        ["css=#\\36 8bad2cad5cdc", "css:finder"],
+        ["xpath=//input[@id='68bad2cad5cdc']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/header/div/div[2]/div/div[3]/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44726713-30bd-4764-9bf1-dcf557947a2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=68bade83eb2af",
+      "targets": [
+        ["id=68bade83eb2af", "id"],
+        ["name=s", "name"],
+        ["css=#\\36 8bade83eb2af", "css:finder"],
+        ["xpath=//input[@id='68bade83eb2af']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/header/div/div[2]/div/div[3]/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "банан"
+    }, {
+      "id": "6c827dfc-1927-40dd-b0a0-203d9cf93ce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aws-form-active svg",
+      "targets": [
+        ["css=.aws-form-active svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e90889e1-185e-4bf7-b69b-489da01e008b",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.product:nth-child(2) .woocommerce-loop-product__title",
+      "targets": [
+        ["css=.product:nth-child(2) .woocommerce-loop-product__title", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/ul/li[2]/div/div[3]/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]/a[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Молочний напій Binggrae, банан 200 мл')]", "xpath:innerText"]
+      ],
+      "value": "полуниця"
+    }, {
+      "id": "51eab9f7-f4a3-48a3-8f6b-613f68a99d81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-74749 .product-info-wrap",
+      "targets": [
+        ["css=.post-74749 .product-info-wrap", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/ul/li[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fca865a-eb17-465c-bab3-84d54923bae5",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Полуниця",
+      "targets": [
+        ["css=li:nth-child(1) .product-title", "css:finder"],
+        ["xpath=//div[@id='woocommerce_recently_viewed_products-3']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Samyang Рамьон, 120 г')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7493d0ea-3772-470e-b3f7-425e63da4ccd",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "id=68bae14f573aa",
+      "targets": [
+        ["id=68bae14f573aa", "id"],
+        ["name=s", "name"],
+        ["css=#\\36 8bae14f573aa", "css:finder"],
+        ["xpath=//input[@id='68bae14f573aa']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/header/div/div[2]/div/div[3]/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8f520964-2647-49b9-b1cf-15a0f6c494ad",
+    "name": "Sort by last",
+    "commands": [{
+      "id": "d7401533-a2b8-4ab4-bb5d-0d8fb39c4f61",
+      "comment": "",
+      "command": "open",
+      "target": "https://samguk.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a806dbb-204b-472f-9f19-6b6561b9b141",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='68bade83eb2af']",
+      "targets": [
+        ["id=68bade83eb2af", "id"],
+        ["name=s", "name"],
+        ["css=#\\36 8bade83eb2af", "css:finder"],
+        ["xpath=//input[@id='68bade83eb2af']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/header/div/div[2]/div/div[3]/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "517bae08-d714-4c97-8590-71e9ee0ce7b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=68bade83eb2af",
+      "targets": [
+        ["id=68bade83eb2af", "id"],
+        ["name=s", "name"],
+        ["css=#\\36 8bade83eb2af", "css:finder"],
+        ["xpath=//input[@id='68bade83eb2af']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/header/div/div[2]/div/div[3]/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "боул"
+    }, {
+      "id": "9257337c-07e2-468d-8266-d4e2d27a9279",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.product:nth-child(2) .woocommerce-loop-product__title",
+      "targets": [
+        ["css=.product:nth-child(2) .woocommerce-loop-product__title", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/ul/li[2]/div/div[3]/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]/a[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Молочний напій Binggrae, банан 200 мл')]", "xpath:innerText"]
+      ],
+      "value": "банан"
+    }, {
+      "id": "45027ec9-77b6-4c9f-ae4e-2d39cc5fa56e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aws-form-active svg",
+      "targets": [
+        ["css=.aws-form-active svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "43d7070b-504c-4c94-a1eb-3b5594c1ba85",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Сортувати за останніми"
+    }, {
+      "id": "d6666b6d-7b4a-406a-8e96-b60bb17f3fe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(3)",
+      "targets": [
+        ["css=option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='date']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/form/select/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Сортувати за останніми')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d907360f-4dd4-443a-bbc0-c47ce2f60225",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(1) .woocommerce-loop-product__title",
+      "targets": [
+        ["css=.product:nth-child(1) .woocommerce-loop-product__title", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/ul/li/div/div[3]/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Рамьон Сок Джин гострий у боулі, 110 г')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01701c7c-d815-4025-93b2-e33a19f3dc7f",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Рамьон",
+      "targets": [
+        ["css=.widget-title > h3", "css:finder"],
+        ["xpath=//div[@id='woocommerce_recently_viewed_products-3']/div/h3", "xpath:idRelative"],
+        ["xpath=//div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e275e36d-a6f9-4929-9634-75d7f747b5ec",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=.price:nth-child(2) > .woocommerce-Price-amount",
+      "targets": [
+        ["css=.price:nth-child(2) > .woocommerce-Price-amount", "css:finder"],
+        ["xpath=//div[@id='product-113679']/div[2]/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'135 ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "349fee67-d7f2-42ef-af4a-d6877b34546b",
+    "name": "Subscribe to the mailing list",
+    "commands": [{
+      "id": "2c847cdf-4f02-4007-9252-cd70f59a241c",
+      "comment": "",
+      "command": "open",
+      "target": "https://samguk.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a805800-c689-48a3-be74-1b64b7d07c3c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='wpforms-3123-field_1']",
+      "targets": [
+        ["id=wpforms-3123-field_1", "id"],
+        ["name=wpforms[fields][1]", "name"],
+        ["css=#wpforms-3123-field_1", "css:finder"],
+        ["xpath=//input[@id='wpforms-3123-field_1']", "xpath:attributes"],
+        ["xpath=//div[@id='wpforms-3123-field_1-container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "624f4c38-be26-4408-8fa5-6524da030851",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpforms-3123-field_1",
+      "targets": [
+        ["id=wpforms-3123-field_1", "id"],
+        ["name=wpforms[fields][1]", "name"],
+        ["css=#wpforms-3123-field_1", "css:finder"],
+        ["xpath=//input[@id='wpforms-3123-field_1']", "xpath:attributes"],
+        ["xpath=//div[@id='wpforms-3123-field_1-container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "lilian523krevetka@gmail.com"
+    }, {
+      "id": "a7c4f52b-af43-43ac-92bd-816d6aa5a7d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=wpforms[submit]",
+      "targets": [
+        ["id=wpforms-submit-3123", "id"],
+        ["name=wpforms[submit]", "name"],
+        ["css=#wpforms-submit-3123", "css:finder"],
+        ["xpath=//button[@id='wpforms-submit-3123']", "xpath:attributes"],
+        ["xpath=//form[@id='wpforms-form-3123']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ПІДПИСАТИСЯ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "082dc523-96ec-4879-a554-db1e03dbae01",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.product:nth-child(2) .woocommerce-loop-product__title",
+      "targets": [
+        ["css=.product:nth-child(2) .woocommerce-loop-product__title", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/ul/li[2]/div/div[3]/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]/a[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Молочний напій Binggrae, банан 200 мл')]", "xpath:innerText"]
+      ],
+      "value": "нарада"
+    }, {
+      "id": "e58e8897-e469-41e5-a73a-635d5f4ffaf0",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=Реклама",
+      "targets": [
+        ["css=.widget-title > h3", "css:finder"],
+        ["xpath=//div[@id='woocommerce_recently_viewed_products-3']/div/h3", "xpath:idRelative"],
+        ["xpath=//div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7072eecb-d9f5-4cd3-8b2f-44a056630ffb",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "id=wpforms-3123-field_1",
+      "targets": [
+        ["id=wpforms-3123-field_1", "id"],
+        ["name=wpforms[fields][1]", "name"],
+        ["css=#wpforms-3123-field_1", "css:finder"],
+        ["xpath=//input[@id='wpforms-3123-field_1']", "xpath:attributes"],
+        ["xpath=//div[@id='wpforms-3123-field_1-container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5283c98a-b6d9-476a-a2ab-1988e94545f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ba5f5ecd-e12b-46e8-93d4-6c48670d1a79"]
+  }],
+  "urls": ["https://samguk.com.ua/"],
+  "plugins": []
+}
